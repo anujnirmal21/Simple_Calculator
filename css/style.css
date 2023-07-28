@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/project_2/img/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: -3px 5px 3px black;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 25px;
+    color: burlywood;
+    font-size: 41px;
+  }
+
+.main {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(9, 9, 9);
+  }
+  .bar {
+    border: 2px solid black;
+    border-radius: 11px;
+    margin-bottom: 20px;
+  }
+#result {
+    padding: 30px 5px 30px 5px;
+    height: 120px;
+    background-color: rgb(18, 18, 18);
+    border: transparent;
+    color: whitesmoke;
+    text-align: right;
+    font-size: 45px;
+    width: 312px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: transparent;
+    padding: 19px 19px 19px 19px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);
+    color: wheat;
+    box-shadow: -2px -3px 3px rgb(26, 26, 26);
+    width: 56px;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid white;
+}
+
+.oprator{
+    color: rgb(34, 209, 34);
+    font-weight: bolder;
+}
+.equal{
+    background-color: rgb(181, 8, 181);
+}
