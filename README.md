@@ -22,3 +22,6 @@ To get started with this Simple Calculator application, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your web browser.
 3. Start using the calculator to perform basic arithmetic operations.
+
+## GitHub page Link:
+https://anujnirmal21.github.io/Simple_Calculator/
